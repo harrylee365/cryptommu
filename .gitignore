@@ -1,0 +1,15 @@
+*.gz
+*.fast
+*.debug
+*.swp
+*.do
+*.fo
+*.log
+*.out
+*.pyc
+.sconsign.dblite
+build/
+m5out/
+*/result/*
+binaries/
+disks/

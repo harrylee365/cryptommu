@@ -1,0 +1,2 @@
+This directory stores results of simulation
+Recommended form of directory for each run: {CONFIG}_{BENCHMARK_NAME}

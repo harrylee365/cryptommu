@@ -1,0 +1,20 @@
+# -*- mode:python -*-
+
+import os
+import sys
+
+from os.path import basename, isdir, join as joinpath
+
+import SCons
+
+Import('*')
+
+
+#if env[] == :
+
+#SimObject('AcceleratorInterface.py')
+
+Source('SimicsInterface.cc')
+Source('DMAEngine.cc')
+Source('prefetcher-tile.cc')
+
