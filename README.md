@@ -19,7 +19,7 @@ Assuming that our Ubuntu machine is in vanilla state
 
 2. Install other essential tools (some might be already installed)
 
-        $ sudo apt install build-essential python2 python2-dev vim git m4 zlib1g zlib1g-dev libtool libltdl libfabric-dev cmake kmod uuid-dev bison doxygen perl valgrind htop iptables libhdf5 patch gettext libtool-bin ca-certificates gnupg
+        $ sudo apt install build-essential python2 python2-dev vim git m4 zlib1g zlib1g-dev libtool libltdl-dev libfabric-dev cmake kmod uuid-dev bison doxygen perl valgrind htop iptables libhdf5-dev patch gettext libtool-bin ca-certificates gnupg
 
 
 ## Prerequisite: Manually install remaining tools
