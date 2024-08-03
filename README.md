@@ -101,7 +101,7 @@ Please note that this is recommended to be done as the last procedure, cause bui
 1. Add old Ubuntu repo to our system using apt (you can exclude kr to use US server)
 
         $ sudo gpg --homedir /tmp --no-default-keyring --keyring /usr/share/keyrings/kr-archive-ubuntu-keyring.gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3B4FE6ACC0B21F32 40976EAF437D05B5
-        $ echo "deb [signed-by=/usr/share/keyrings/kr-archive-ubuntu-keyring.gpg] http://kr.archive.ubuntu.com/ trusty main" | sudo tee /etc/apt/sources.list.d/kr-archive-ubuntu.list
+        $ echo "deb [signed-by=/usr/share/keyrings/kr-archive-ubuntu-keyring.gpg] http://kr.archive.ubuntu.com/ trusty universe main" | sudo tee /etc/apt/sources.list.d/kr-archive-ubuntu.list
         $ sudo apt update
 
 2. Install 
